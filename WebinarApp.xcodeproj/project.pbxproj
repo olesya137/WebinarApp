@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84BDF3711B73B56E004427ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BDF3701B73B56E004427ED /* main.m */; };
+		84BDF3741B73B56E004427ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BDF3731B73B56E004427ED /* AppDelegate.m */; };
+		84BDF3771B73B56E004427ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BDF3761B73B56E004427ED /* ViewController.m */; };
+		84BDF37A1B73B56E004427ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BDF3781B73B56E004427ED /* Main.storyboard */; };
+		84BDF37C1B73B56E004427ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BDF37B1B73B56E004427ED /* Images.xcassets */; };
+		84BDF37F1B73B56E004427ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BDF37D1B73B56E004427ED /* LaunchScreen.xib */; };
+		84BDF38B1B73B56E004427ED /* WebinarAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BDF38A1B73B56E004427ED /* WebinarAppTests.m */; };
+		84BDF3991B73BDF2004427ED /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BDF3981B73BDF2004427ED /* OverlayView.m */; };
+		84BDF39B1B73BE12004427ED /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BDF39A1B73BE12004427ED /* OverlayView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84BDF3851B73B56E004427ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84BDF3631B73B56E004427ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84BDF36A1B73B56E004427ED;
+			remoteInfo = WebinarApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84BDF36B1B73B56E004427ED /* WebinarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebinarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84BDF36F1B73B56E004427ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BDF3701B73B56E004427ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84BDF3721B73B56E004427ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84BDF3731B73B56E004427ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84BDF3751B73B56E004427ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84BDF3761B73B56E004427ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84BDF3791B73B56E004427ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84BDF37B1B73B56E004427ED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84BDF37E1B73B56E004427ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		84BDF3841B73B56E004427ED /* WebinarAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebinarAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84BDF3891B73B56E004427ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BDF38A1B73B56E004427ED /* WebinarAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebinarAppTests.m; sourceTree = "<group>"; };
+		84BDF3971B73BDF2004427ED /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
+		84BDF3981B73BDF2004427ED /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
+		84BDF39A1B73BE12004427ED /* OverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverlayView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84BDF3681B73B56E004427ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BDF3811B73B56E004427ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84BDF3621B73B56E004427ED = {
+			isa = PBXGroup;
+			children = (
+				84BDF36D1B73B56E004427ED /* WebinarApp */,
+				84BDF3871B73B56E004427ED /* WebinarAppTests */,
+				84BDF36C1B73B56E004427ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84BDF36C1B73B56E004427ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84BDF36B1B73B56E004427ED /* WebinarApp.app */,
+				84BDF3841B73B56E004427ED /* WebinarAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84BDF36D1B73B56E004427ED /* WebinarApp */ = {
+			isa = PBXGroup;
+			children = (
+				84BDF3721B73B56E004427ED /* AppDelegate.h */,
+				84BDF3731B73B56E004427ED /* AppDelegate.m */,
+				84BDF3751B73B56E004427ED /* ViewController.h */,
+				84BDF3761B73B56E004427ED /* ViewController.m */,
+				84BDF3781B73B56E004427ED /* Main.storyboard */,
+				84BDF37B1B73B56E004427ED /* Images.xcassets */,
+				84BDF37D1B73B56E004427ED /* LaunchScreen.xib */,
+				84BDF36E1B73B56E004427ED /* Supporting Files */,
+				84BDF3971B73BDF2004427ED /* OverlayView.h */,
+				84BDF3981B73BDF2004427ED /* OverlayView.m */,
+				84BDF39A1B73BE12004427ED /* OverlayView.xib */,
+			);
+			path = WebinarApp;
+			sourceTree = "<group>";
+		};
+		84BDF36E1B73B56E004427ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84BDF36F1B73B56E004427ED /* Info.plist */,
+				84BDF3701B73B56E004427ED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84BDF3871B73B56E004427ED /* WebinarAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				84BDF38A1B73B56E004427ED /* WebinarAppTests.m */,
+				84BDF3881B73B56E004427ED /* Supporting Files */,
+			);
+			path = WebinarAppTests;
+			sourceTree = "<group>";
+		};
+		84BDF3881B73B56E004427ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84BDF3891B73B56E004427ED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84BDF36A1B73B56E004427ED /* WebinarApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84BDF38E1B73B56E004427ED /* Build configuration list for PBXNativeTarget "WebinarApp" */;
+			buildPhases = (
+				84BDF3671B73B56E004427ED /* Sources */,
+				84BDF3681B73B56E004427ED /* Frameworks */,
+				84BDF3691B73B56E004427ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebinarApp;
+			productName = WebinarApp;
+			productReference = 84BDF36B1B73B56E004427ED /* WebinarApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84BDF3831B73B56E004427ED /* WebinarAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84BDF3911B73B56E004427ED /* Build configuration list for PBXNativeTarget "WebinarAppTests" */;
+			buildPhases = (
+				84BDF3801B73B56E004427ED /* Sources */,
+				84BDF3811B73B56E004427ED /* Frameworks */,
+				84BDF3821B73B56E004427ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84BDF3861B73B56E004427ED /* PBXTargetDependency */,
+			);
+			name = WebinarAppTests;
+			productName = WebinarAppTests;
+			productReference = 84BDF3841B73B56E004427ED /* WebinarAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84BDF3631B73B56E004427ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					84BDF36A1B73B56E004427ED = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					84BDF3831B73B56E004427ED = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 84BDF36A1B73B56E004427ED;
+					};
+				};
+			};
+			buildConfigurationList = 84BDF3661B73B56E004427ED /* Build configuration list for PBXProject "WebinarApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84BDF3621B73B56E004427ED;
+			productRefGroup = 84BDF36C1B73B56E004427ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84BDF36A1B73B56E004427ED /* WebinarApp */,
+				84BDF3831B73B56E004427ED /* WebinarAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84BDF3691B73B56E004427ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BDF37A1B73B56E004427ED /* Main.storyboard in Resources */,
+				84BDF39B1B73BE12004427ED /* OverlayView.xib in Resources */,
+				84BDF37F1B73B56E004427ED /* LaunchScreen.xib in Resources */,
+				84BDF37C1B73B56E004427ED /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BDF3821B73B56E004427ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84BDF3671B73B56E004427ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BDF3771B73B56E004427ED /* ViewController.m in Sources */,
+				84BDF3991B73BDF2004427ED /* OverlayView.m in Sources */,
+				84BDF3741B73B56E004427ED /* AppDelegate.m in Sources */,
+				84BDF3711B73B56E004427ED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BDF3801B73B56E004427ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BDF38B1B73B56E004427ED /* WebinarAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84BDF3861B73B56E004427ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84BDF36A1B73B56E004427ED /* WebinarApp */;
+			targetProxy = 84BDF3851B73B56E004427ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84BDF3781B73B56E004427ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84BDF3791B73B56E004427ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84BDF37D1B73B56E004427ED /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84BDF37E1B73B56E004427ED /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84BDF38C1B73B56E004427ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84BDF38D1B73B56E004427ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84BDF38F1B73B56E004427ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WebinarApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84BDF3901B73B56E004427ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WebinarApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84BDF3921B73B56E004427ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WebinarAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebinarApp.app/WebinarApp";
+			};
+			name = Debug;
+		};
+		84BDF3931B73B56E004427ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WebinarAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebinarApp.app/WebinarApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84BDF3661B73B56E004427ED /* Build configuration list for PBXProject "WebinarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BDF38C1B73B56E004427ED /* Debug */,
+				84BDF38D1B73B56E004427ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84BDF38E1B73B56E004427ED /* Build configuration list for PBXNativeTarget "WebinarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BDF38F1B73B56E004427ED /* Debug */,
+				84BDF3901B73B56E004427ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84BDF3911B73B56E004427ED /* Build configuration list for PBXNativeTarget "WebinarAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BDF3921B73B56E004427ED /* Debug */,
+				84BDF3931B73B56E004427ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84BDF3631B73B56E004427ED /* Project object */;
+}

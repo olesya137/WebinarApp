@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OverlayView"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="OverlayView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="avx-Qg-SAu" userLabel="Change">
+                    <rect key="frame" x="30" y="30" width="39" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="0qk-QF-KT9"/>
+                        <constraint firstAttribute="height" constant="30" id="MWf-ge-zJ8"/>
+                        <constraint firstAttribute="width" constant="30" id="QNr-IM-RPr"/>
+                        <constraint firstAttribute="width" constant="39" id="we1-H7-fW6"/>
+                    </constraints>
+                    <state key="normal" image="change">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="MWf-ge-zJ8"/>
+                            <exclude reference="QNr-IM-RPr"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="changeButtonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="pqA-SI-TtI"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VKZ-GE-bJ2">
+                    <rect key="frame" x="530" y="30" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="7HZ-F1-3CV"/>
+                        <constraint firstAttribute="width" constant="46" id="7w2-xN-QR5"/>
+                        <constraint firstAttribute="width" constant="40" id="POb-zQ-dMs"/>
+                        <constraint firstAttribute="height" constant="40" id="V8I-JB-oWj"/>
+                    </constraints>
+                    <state key="normal" image="close">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="7HZ-F1-3CV"/>
+                            <exclude reference="7w2-xN-QR5"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="closeButtonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="IDh-DD-ev1"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="avx-Qg-SAu" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="SUs-02-Tzm"/>
+                <constraint firstAttribute="trailing" secondItem="VKZ-GE-bJ2" secondAttribute="trailing" constant="19" id="VFo-mW-v5a"/>
+                <constraint firstItem="VKZ-GE-bJ2" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="27" id="bUb-Tf-a2C"/>
+                <constraint firstAttribute="trailing" secondItem="VKZ-GE-bJ2" secondAttribute="trailing" constant="30" id="drk-sc-YX4"/>
+                <constraint firstItem="VKZ-GE-bJ2" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="30" id="eV3-v3-NNh"/>
+                <constraint firstItem="avx-Qg-SAu" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="30" id="n6S-OE-NH4"/>
+                <constraint firstItem="avx-Qg-SAu" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="28" id="yXG-Ah-zh7"/>
+                <constraint firstItem="avx-Qg-SAu" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="30" id="zdG-em-cfF"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="n6S-OE-NH4"/>
+                    <exclude reference="yXG-Ah-zh7"/>
+                    <exclude reference="VFo-mW-v5a"/>
+                    <exclude reference="bUb-Tf-a2C"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="2" y="315"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="change" width="256" height="201"/>
+        <image name="close" width="128" height="128"/>
+    </resources>
+</document>
